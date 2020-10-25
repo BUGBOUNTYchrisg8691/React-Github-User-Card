@@ -2,15 +2,18 @@ import React, { Component } from "react";
 
 import "./App.css";
 
+import UserCard from "./components/UserCard/UserCard";
+
+const users = ["bugbountychrisg8691", "pry0cc", "tomnomnom", "jhaddix"];
+
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      state: "",
-    };
-  }
   render() {
-    return <div>Hello from React</div>;
+    return (
+      <React.Fragment>
+        <h1>GitHub User Cards with React</h1>
+        <UserCard user={users[0]} />
+      </React.Fragment>
+    );
   }
 }
 

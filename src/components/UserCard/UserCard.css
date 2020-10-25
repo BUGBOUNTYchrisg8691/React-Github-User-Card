@@ -1,0 +1,13 @@
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+  border: 5px double goldenrod;
+  padding: 20px;
+}
+
+.user-card img {
+  border: 5px double goldenrod;
+  margin: 10px;
+}
